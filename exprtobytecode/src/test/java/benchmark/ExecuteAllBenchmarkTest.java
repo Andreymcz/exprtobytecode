@@ -2,7 +2,6 @@ package benchmark;
 
 import benchmark.caliper.EvaluateFormulaBenchMark;
 import com.google.caliper.runner.CaliperMain;
-
 import org.junit.Test;
 
 import static org.junit.Assert.assertTrue;
