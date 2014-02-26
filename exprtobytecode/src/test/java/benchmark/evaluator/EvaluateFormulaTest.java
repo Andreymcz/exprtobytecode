@@ -1,6 +1,5 @@
-package benchmark;
+package benchmark.evaluator;
 
-import benchmark.caliper.EvaluateFormulaBenchMark;
 import com.google.caliper.runner.CaliperMain;
 import org.junit.Test;
 
@@ -9,14 +8,13 @@ import static org.junit.Assert.assertTrue;
 /**
  * Created by andrey on 2/26/14.
  */
-public class ExecuteAllBenchmarkTest {
+public class EvaluateFormulaTest {
 
     @Test
-    public void testExecuteAll() {
+    public void formulaEvaluatorBenchmark() {
         CaliperMain.main(new String[]{
                 EvaluateFormulaBenchMark.class.getCanonicalName()
         });
         assertTrue(true);
-
     }
 }
